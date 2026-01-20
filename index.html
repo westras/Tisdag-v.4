@@ -4,10 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grodor - Fascinerande amfibier</title>
-    <link rel="stylesheet" href="style.css" class="css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Grodor - Världens mest fascinerande amfibier</h1>
+    <div id="mainHeader">
+        <h1>Grodor - Världens mest fascinerande amfibier</h1>
+        <button id="themeBtn">🌙 Mörkt tema</button>
+    </div>
     
     <p>Välkommen till denna sida om grodor! Här kan du lära dig om dessa otroliga varelser som lever både i vatten och på land.</p>
     
@@ -29,6 +32,21 @@
     <h2>Intressanta fakta om grodor</h2>
     <p>Här är några fascinerande saker du bör veta om grodor:</p>
     
+    <div id="controls">
+        <button id="toggleBtn">📖 Visa fler fakta</button>
+    </div>
+    
+    <div id="extraFacts" class="hidden">
+        <h3>Extra fascinerande fakta! 🐸</h3>
+        <ul>
+            <li>Grodor kan se i alla riktningar samtidigt - deras ögon placeras på sidorna av huvudet</li>
+            <li>Vissa grodor kan ändra färg för att kamouflera sig eller attrahera partners</li>
+            <li>En grodfamilj kan producera tusentals ägg under en enda säsong</li>
+            <li>Grodor utvecklades från fiskliknande varelser för omkring 340 miljoner år sedan</li>
+            <li>Många grodarter är hotade av klimatförändring och habitatförlust</li>
+        </ul>
+    </div>
+    
     <ol>
         <li>Grodor andas genom sin hud - de tar upp syre direkt genom hudytan</li>
         <li>De kan hoppa upp till 20 gånger längre än deras egen kropp</li>
@@ -37,7 +55,16 @@
         <li>Grodor genomgår metamorfos - de börjar som grodor i vatten</li>
     </ol>
     
-    <p>För mer information om grodor, besök <a href="https://sv.wikipedia.org/wiki/Grodor">wikipedia - Grodor</a> för att lära dig mer om dessa fantastiska varelser.</p>
+    <div id="extraFacts" class="hidden">
+        <h3>Extra fascinerande fakta! 🐸</h3>
+        <ul>
+            <li>Grodor kan se i alla riktningar samtidigt - deras ögon placeras på sidorna av huvudet</li>
+            <li>Vissa grodor kan ändra färg för att kamouflera sig eller attrahera partners</li>
+            <li>En grodfamilj kan producera tusentals ägg under en enda säsong</li>
+            <li>Grodor utvecklades från fiskliknande varelser för omkring 340 miljoner år sedan</li>
+            <li>Många grodarter är hotade av klimatförändring och habitatförlust</li>
+        </ul>
+    </div>
     
     <h3>En vacker groda</h3>
     <img src="https://clandgren.se/wp-content/uploads/2020/12/739A4189-1536x996.jpg" alt="En lysande grön trädgroda med stora ögon sitter på ett blad i en djungel">
@@ -45,5 +72,7 @@
     <footer>
         <p>&copy; 2026 - Information om grodor</p>
     </footer>
+    
+    <script src="script.js"></script>
 </body>
 </html>
